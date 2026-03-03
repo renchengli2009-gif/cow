@@ -1,0 +1,25 @@
+.button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        box-shadow: 
+            inset 4px 4px 8px rgba(60,60,60,0.15),
+            inset -4px -4px 8px rgba(60,60,60,0.15),
+            4px 4px 8px rgba(0,0,0,0.6),
+            -4px -4px 8px rgba(60,60,60,0.15);
+        border: 0px;
+        transition: 0.25s ease-out;
+
+    }
+    .button:active{
+        background-color: rgb(210, 209, 209);
+        box-shadow: 
+            inset 4px 4px 8px rgba(60,60,60,0.15),
+            inset -4px -4px 8px rgba(60,60,60,0.15),
+            2px 2px 4px rgba(0,0,0,0.6),
+            -2px -2px 4px rgba(60,60,60,0.15);
+    }
